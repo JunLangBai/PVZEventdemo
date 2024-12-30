@@ -13,5 +13,6 @@ public class GameControl : MonoBehaviour
     public void UpSun()
     {
         sun += 25;
+        Debug.Log("Up Sun");
     }
 }
